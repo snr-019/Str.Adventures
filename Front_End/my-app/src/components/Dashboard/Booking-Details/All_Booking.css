@@ -1,0 +1,88 @@
+#admin-dashboard {
+    width: 100vw;
+    margin-top: 60px;
+    padding-left: 193px;
+  }
+  
+  .bookings-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1.5px solid #dadce3;
+  }
+  
+  .bookings-table th, .bookings-table td {
+    border: 1px solid #0f7c6c;
+    padding: 8px;
+    text-align: center;
+    font-Family:'inter, sans-serif';
+  }
+  
+  .bookings-table th {
+    background-color: #dadce3;
+    color: #0f7c6c;
+  }
+  
+  .bookings-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .bookings-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .no-data {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+  }
+  .update-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px; /* Set a maximum width for the modal */
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    /* padding: 10px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: 2px solid #dadce3;
+   
+
+  }
+
+.dialog-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   z-index: 2000; 
+}
+
+.dialog-content {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  border: 2px solid #dadce3;
+}
+
+.close-button {
+  border: 1px solid #0f7c6c;
+  background: #dadce3;
+  color: #0f7c6c;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.consent-form-details {
+  font-family: 'inter, sans-serif';
+  border: 1px solid #0f7c6c;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+  

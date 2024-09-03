@@ -1,0 +1,31 @@
+
+.nav-custom {
+    background-color: #f8f9fa; 
+    width: 230px;
+    height: 100vh; 
+    position: fixed; 
+  }
+  .nav-custom.nav-side {
+    left: 1px; 
+  }
+  #small{
+    width: 180px;
+    border: 1px solid #ccc;
+    padding-top: 150px;
+    background-color: #DADCE3;
+  }
+  .time {
+    color: #0F7C6C;
+    font-size: 16px;
+    padding: 5px 15px;
+    border: 1px solid #DADCE3; 
+  }
+  .time:hover, .time.active {
+    background-color: #e9ecef;
+    color: #0F7C6C;
+    border-color: #0F7C6C; 
+    border-radius: 10px;
+  }
+  #log{
+    margin-top: 100px;
+  }

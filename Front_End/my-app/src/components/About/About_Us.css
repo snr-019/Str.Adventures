@@ -1,0 +1,97 @@
+.about-us {
+  padding: 0px 30px 30px 30px;
+  background-color: #DADCE3;
+}
+
+.heading-container {
+  text-align: center;
+}
+
+.heading_card {
+  font-size: 2em; /* Reduced font size for the heading */
+  margin: 0;
+}
+.content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap; 
+}
+
+.text-container {
+  flex: 1;
+  max-width: 600px;
+  padding-left:80px ;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;/* Ensure button stays at the bottom */
+  line-height: 25px;
+  margin-right: 15px;
+}
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  align-items:end;
+  margin-left: 15px;
+  padding-right: 80px;
+}
+
+.about-us-image {
+  max-width: 100%;
+  max-height:   450px;
+  height: auto; /* Ensure the height adjusts proportionally */
+  border-radius: 10px;
+  object-fit: cover; /* Cover the container without distortion */
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+  .content-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-container {
+    max-width: 100%;
+    margin-bottom: 15px; /* Reduced space between text and image */
+  }
+
+  .about-us-image {
+    max-height: 250px; /* Limit the height of the image on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .heading_card {
+    font-size: 1.8em; /* Slightly smaller heading font size */
+  }
+
+  .text-container p {
+    font-size: 0.9em; /* Smaller paragraph font size */
+  }
+
+  .learn-more-btn {
+    padding: 6px 12px; /* Smaller padding for the button */
+    font-size: 0.8em; /* Smaller font size for the button */
+  }
+}
+
+@media (max-width: 480px) {
+  .about-us {
+    padding: 15px; /* Further reduce padding on very small screens */
+  }
+
+  .heading_card {
+    font-size: 1.6em; /* Further reduce heading font size */
+  }
+
+  .text-container p {
+    font-size: 0.8em; /* Further reduce paragraph font size */
+  }
+  .about-us-image {
+    max-height: 200px; /* Further limit the height of the image on small screens */
+  }
+}
+

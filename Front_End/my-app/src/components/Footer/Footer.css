@@ -1,0 +1,123 @@
+.footer {
+    background-color: #DADCE3;
+    color: #0f7c6c !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border: 2px solid green; */
+}
+
+.footer .text-white {
+    color: #0f7c6c !important;
+}
+
+.footer a {
+    color: #0f7c6c !important;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icon {
+    font-size: 2rem;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    color: #3aafa9;
+}
+
+.instagram-icon {
+    color: #0f7c6c; 
+}
+
+.facebook-icon {
+    color: #0f7c6c; 
+}
+
+.copy {
+    text-align: center;
+    padding-top: 20px;
+    color: #0f7c6c;
+}
+
+.numariq {
+    font-size: 15px;
+    text-align: center;
+    color: #0f7c6c;
+    font-weight: bold;
+}
+
+.midhat {
+    text-align: center;
+    color: #0f7c6c;
+    font-weight: bolder;
+}
+
+.textcolor {
+    color: #0f7c6c;
+}
+
+.footer-link {
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+    color: #3aafa9;
+}
+#taqwa{
+    font-size: 15px;
+    text-align: start;
+    color: #0f7c6c;
+    font-weight: bold;
+    /* padding-top: 10px; */
+    text-decoration: none;
+}
+.baba{
+    text-align: center;
+    color: #0f7c6c;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.tahir{
+    color:#0f7c6c;
+    font-size: 15px;
+    font-weight: bold;
+}
+#removemargin{
+    margin-bottom: 0px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .baba {
+        font-size: 24px;
+    }
+
+    .numariq,
+    .tahir {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .baba {
+        font-size: 20px;
+    }
+
+    .numariq,
+    .tahir {
+        font-size: 12px;
+    }
+}

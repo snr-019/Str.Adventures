@@ -1,0 +1,23 @@
+.booking-row {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #DADCE3;
+}
+
+.booking-row p {
+    margin-bottom: 5px;
+}
+
+.booking-row button {
+    padding: 8px 16px;
+}
+#PEN{
+    left: 400px;
+    margin-right: 100px;
+    width: 850px;
+    height: 300px;
+    padding:30px;
+    border: 1px solid #DADCE3;
+    border-radius: 10px;
+}

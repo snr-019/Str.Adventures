@@ -1,0 +1,39 @@
+  .metric {
+    background-color: #dadce3;
+    border-radius: 10px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(89, 61, 61, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #dadce3;
+    flex-direction: column;
+
+  }
+  .metric:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .metric h3 {
+    font-size: 1.5rem;
+    /* margin-bottom: 10px; */
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  
+  .metric p {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  @media (max-width: 600px) {
+    .metric {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  

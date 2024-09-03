@@ -1,0 +1,68 @@
+
+.social-card {
+    max-width: 270px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* transform: translateY(-50%); */
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #dadce3;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .card-title {
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    color: #0f7c6c;
+    font-size: 1.4rem; 
+  }
+  
+  .social-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10px;
+  }
+  
+  .social-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px; 
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+    max-width: 150px; 
+    /* border: 1px solid red; */
+    text-align: center;
+  }
+  
+  .social-link:hover {
+    background-color: #dadce3;
+     transform: scale(1.05); 
+  }
+  
+  .social-avatar {
+    background-color: transparent;
+    width: 50px; 
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-name {
+    font-weight: 500;
+    font-size: 0.6rem;
+    color: #0f7c6c;
+  }
+  
+  .social-followers {
+    color: #666;
+    font-size: 0.8rem;
+  }
+  

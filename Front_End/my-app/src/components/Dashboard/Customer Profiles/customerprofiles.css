@@ -1,0 +1,40 @@
+.admin-dashboard {
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 160px;
+    border: 2px solid #dadce3;
+    border-radius: 10px;
+    font-Family:'inter, sans-serif';
+  }
+  
+  .bookings-table {
+    width: 100%;
+    border-collapse: collapse;
+    /* margin-top: 20px; */
+  }
+  
+  .bookings-table th, .bookings-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .bookings-table th {
+    background-color: #f4f4f4;
+    color: #0f7c6c;
+  }
+  
+  .bookings-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .bookings-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .no-data {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+  }
+  
