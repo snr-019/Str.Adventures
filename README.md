@@ -1,4 +1,4 @@
-# STR Adventures (A MERN STACK Web Application)
+# Str Adventures (A MERN STACK Web Application)
 
 STR Adventures is a specialized travel and tour platform designed to streamline and enhance the travel experiences of adventurers. 
 Developed using the MERN stack (MongoDB, Express.js, React, Node.js), the platform offers a seamless and responsive user experience, addressing challenges related to manual management of bookings, 
