@@ -6,22 +6,19 @@ customer interactions, and overall travel coordination.
 
 ## Features
 
-### Frontend
-- **Secure User Authentication**: Role-based access to ensure users and admins have appropriate permissions.
+- **Secure User Authentication**: Role-based access to ensure users and admins have appropriate permissions, Backend support for user authentication and role management.
 - **Review and Rating System**: Allow users to rate and review their experiences.
 - **Highlighted Destinations**: Showcase popular and recommended trekking destinations.
 - **Seamless Payment Processing**: Integrated payment gateway for hassle-free transactions.
 - **Trekking Information**: Detailed information about treks, including itineraries and highlights.
 - **Booking System**: Easy-to-use interface for booking treks and managing reservations.
-
-### Backend
-- **Secure User Authentication**: Backend support for user authentication and role management.
 - **Booking Management**: Manage bookings, including creation, updates, and cancellations.
 - **Consent Form Management**: Handle consent forms and ensure all required forms are submitted.
 - **Email Notifications**: Automated email notifications for booking confirmations and updates via NodeMailer.
 - **Data Management with MongoDB**: Store and manage data efficiently using MongoDB.
 - **API Endpoints**: Provide necessary endpoints for frontend and backend interactions.
 - **Admin Dashboard**: Admin interface for managing user and booking data.
+- **User Dashboard**: Personalized dashboard for users to manage bookings, view trek details, and update their profiles.
 
 ## Getting Started
 This project was bootstrapped with Create React App.
